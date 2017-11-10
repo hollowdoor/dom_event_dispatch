@@ -1,0 +1,43 @@
+{
+  "scripts": {
+    "build": "ebam",
+    "test": "echo \"no test\""
+  },
+  "name": "dom-event-dispatch",
+  "description": "Cross browser Event constuctor dispatch",
+  "keywords": [
+    "events",
+    "DOM",
+    "Event",
+    "dispatch",
+    "fire"
+  ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "ebam": {
+    "entry": "src/index.js",
+    "transforms": {
+      "dangerousForOf": false,
+      "dangerousTaggedTemplateString": false
+    },
+    "test": {
+      "dest": "test/code.js",
+      "src": "test/src.js"
+    }
+  },
+  "author": "Quentin Engles <hollowdoor99@gmail.com> (https://hollowdoor.github.io)",
+  "main": "dist/bundle.js",
+  "jsnext:main": "dist/bundle.es.js",
+  "module": "dist/bundle.es.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hollowdoor/dom_event_dispatch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hollowdoor/dom_event_dispatch/issues"
+  },
+  "homepage": "https://github.com/hollowdoor/dom_event_dispatch#readme"
+}
